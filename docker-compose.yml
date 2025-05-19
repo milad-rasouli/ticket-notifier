@@ -1,10 +1,9 @@
-version: "3.8"
+
 services:
   redis:
     container_name: redis
-    image: ghcr.io/milad75rasouli/redis/redis-stack:latest
+    image: redis:8.0-M02-alpine
     ports:
       - "6379:6379"
-      - "8001:8001"
     network_mode: host
     # enviroment:

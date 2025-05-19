@@ -1,5 +1,5 @@
 build:
-	go build -o ./bin/ticketBot main.go
+	go build -o bin/ticket ./cmd/.
 
 run: build
-	./bin/ticketBot
+	bin/ticket
